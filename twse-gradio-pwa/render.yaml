@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: twse-gradio-pwa
-    runtime: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    healthCheckPath: /healthz
