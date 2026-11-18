@@ -611,7 +611,8 @@ def create_interface():
 
     return demo
 
-
 if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 7860))
     demo = create_interface()
-    demo.launch(share=False, server_name="0.0.0.0")
+    demo.launch(server_name="0.0.0.0", server_port=port, share=False)
