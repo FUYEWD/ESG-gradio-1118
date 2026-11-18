@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1A1Uigji0tehYJ4GNHZ6cuPkzHIjnBptg
 """
 
-!pip install gradio groq pypdf python-docx sentence-transformers numpy chromadb scikit-learn
-
 """
 多策略 RAG 文件問答系統 v2 — ChromaDB + PDF/DOCX 版本（優化版）
 
